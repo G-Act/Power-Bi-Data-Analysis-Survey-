@@ -1,7 +1,6 @@
 
 # Data Workforce Entry Barriers Dashboard – Power BI Project
 
-(screenshots/dashboard-overview.png)
 
 An interactive Power BI dashboard analyzing real-time survey data from data professionals (Data Scientists, Data Analysts, Data Architects, Database Administrators/Engineers, and related roles). The project explores the key difficulties and barriers people face when entering or breaking into the data workforce.
 
@@ -19,14 +18,13 @@ This dashboard highlights challenges such as lack of experience requirements, co
 - Power Query for full data cleaning:
   - Removed duplicates & nulls
   - Standardized role titles and responses
-  - Handled multi-select questions (split columns, unpivoted where needed)
+  - Handled multi-select questions 
   - Created calculated columns for grouping difficulties/barriers
 - Visuals: Bar/column charts, pie/donut for proportions, treemaps for breakdowns, slicers for role filtering, cards for key stats
 
 ## How to Explore
 1. Download & Open the [.pbix file](Data-analysis-survey.pbix) in Power BI Desktop (free download from Microsoft).
-2. Refresh if you have the source CSV (included or linked).
-3. Use slicers to filter by role, difficulty level, region, etc.
+2. Use slicers to filter by role, difficulty level, region, etc.
 
 
 ## Key Learnings & Challenges Overcome
@@ -41,7 +39,7 @@ The data job market has become more competitive  many "entry-level" postings ask
 Perfect for:
 - Aspiring data professionals preparing their learning path
 - Career switchers understanding realistic hurdles
-- Portfolio showcase of end-to-end Power BI skills (ingest → clean → model → visualize)
+- Portfolio showcase of end-to-end Power BI skills 
 
 Feel free to download, explore, fork, or reach out with questions/feedback!
 
